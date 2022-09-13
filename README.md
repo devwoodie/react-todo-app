@@ -8,6 +8,7 @@
   
 - **Detailed Description**
 ```
+
 velopert님의 [리액트를 다루는 기술] 에서 진행한 Todo 앱을 구현했습니다.
 
 [ Component 설명]
@@ -23,6 +24,7 @@ todo객체를 props로 받아 와서 상태에 따라 다른 스타일의 UI를 
 
 4. TodoList : todos 배열을 props로 받아 온 후, 이를 배열 내장 함수 map을 사용해서 
 여러 개의 TodoListItem 컴포넌트로 변환하여 보여 줍니다.
+
 ```
 
 ![image](https://user-images.githubusercontent.com/86578755/189834723-0db16bf2-0a63-43d3-ab33-b846692bf146.png)
