@@ -4,7 +4,9 @@
 :link: **<a href="" target="_blank">Site Link</a>** 
 
 - **Use Stack**
-  - React
+  - React(function Component)
+    - Hooks
+  - SCSS
   
 - **Detailed Description**
 ```
