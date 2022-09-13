@@ -36,7 +36,7 @@ function App() {
 
     const onRemove = useCallback(id => {
         setTodos(todos.filter(todo => todo.id !== id));
-    },[todos])
+    },[todos]);
 
     return (
         <TodoTemplate>
