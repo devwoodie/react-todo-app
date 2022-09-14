@@ -10,9 +10,11 @@ const TodoInsert = ({onInsert}) => {
     },[]);
 
     const onSubmit = useCallback(e => {
-        onInsert(value);
-        setValue('');
         e.preventDefault();
+        if(value !== ''){
+            onInsert(value);
+            setValue('');
+        }else{ alert('내용을 입력해주세요') };
     },[onInsert, value]);
 
     return (

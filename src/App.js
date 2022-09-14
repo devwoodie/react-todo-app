@@ -7,17 +7,17 @@ function App() {
     let [todos, setTodos] = useState([
         {
             id: 1,
-            text: '리액트 공부하기',
+            text: 'Morning walk',
             checked: true
         },
         {
             id: 2,
-            text: '컴포넌트 스타일링하기',
+            text: 'Meeting with you',
             checked: true
         },
         {
             id: 3,
-            text: '일정관리 앱 만들기',
+            text: 'Buy Pizza from Pizzahut',
             checked: false
         },
     ])
