@@ -1,8 +1,6 @@
 ### [React-todo-app]
 `Study-Project`
 
-:link: **<a href="" target="_blank">Site Link</a>** 
-
 - **Use Stack**
   - React(function Component)
     - Hooks
